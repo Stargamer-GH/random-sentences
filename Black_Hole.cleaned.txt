@@ -428,17 +428,3 @@ One possible solution, which violates the equivalence principle, is that a firew
 In general, which—if any—of these assumptions should be abandoned remains a topic of debate.
 Christopher Nolan's 2014 science fiction epic Interstellar features a black hole known as Gargantua, which is the central object of a planetary system in a distant galaxy.
 Humanity accessed this system via a wormhole in the outer solar system, near Saturn.
-The value of cJ/GM2 can exceed 1 for objects other than black holes.
-The largest value known for a neutron star is ≤ 0.4, and commonly used equations of state would limit that value to < 0.7.
-The set of possible paths, or more accurately the future light cone containing all possible world lines, is tilted in this way in Eddington–Finkelstein coordinates, but in other coordinates the light cones are not tilted in this way, for example in Schwarzschild coordinates they narrow without tilting as one approaches the event horizon, and in Kruskal–Szekeres coordinates the light cones do not change shape or orientation at all.
-This is true only for four-dimensional spacetimes.
-In higher dimensions more complicated horizon topologies like a black ring are possible.
-In particular, he assumed that all matter satisfies the weak energy condition.
-Scholia has a profile for black hole.
-Stanford Encyclopedia of Philosophy: Singularities and Black Holes by Erik Curiel and Peter Bokulich.
-Cowen, Ron.
-3D simulations of colliding black holes hailed as most realistic yet.
-Nature. doi1038/nature.2015.17360.
-This page was last edited on 30 July 2025, at 12 Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply.
-By using this site, you agree to the Terms of Use and Privacy Policy.
-Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
