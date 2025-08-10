@@ -48,7 +48,7 @@ def is_ending_word(word):
         return False
     if not word[-1] == '.':
         return False
-    if word in ["e.g.", "i.e.", "p.", "pp.", "Inc."]:
+    if word in ["e.g.", "i.e.", "p.", "pp.", "Inc.", "etc."]:
         return False
 
     return True
