@@ -50,6 +50,8 @@ def is_ending_word(word):
         return False
     if word in ["e.g.", "i.e.", "p.", "pp.", "Inc.", "etc."]:
         return False
+    if len(word) <= 2:
+        return False
 
     return True
 
@@ -82,14 +84,17 @@ def generate_sentence(file_path):
     word = words[index[0]][0]
     sentence += word
 
-    while not is_ending_word(word):
-        sentence += " "
-        next_word = words[index[0]][index[1]+1]
-        index = get_random_instance(next_word, words)
-        word = words[index[0]][index[1]]
-        sentence += word
+    try:
+        while not is_ending_word(word):
+            sentence += " "
+            next_word = words[index[0]][index[1]+1]
+            index = get_random_instance(next_word, words)
+            word = words[index[0]][index[1]]
+            sentence += word
+        print(sentence, end="")
+    except IndexError:
+        print(f"[oops! something went wrong with the word '{word}'!]")
 
-    print(sentence, end="")
 
 
 def main():
