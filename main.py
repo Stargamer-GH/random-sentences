@@ -44,9 +44,10 @@ def select_cleaned_file() -> Path | None:
 
 
 def is_ending_word(word):
-    if '.' not in word:
+    punctuation = ['.', '!', '?']
+    if not any(p in word for p in punctuation):
         return False
-    if not word[-1] == '.':
+    if not any(word[-1] == p for p in punctuation):
         return False
     if word in ["e.g.", "i.e.", "p.", "pp.", "Inc.", "etc."]:
         return False

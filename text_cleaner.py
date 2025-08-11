@@ -17,7 +17,7 @@ INPLACE = False                  # Overwrite files instead of creating cleaned c
 BACKUP = True                    # Keep backup if INPLACE = True
 MODE = 'smart'                   # 'smart' or 'simple'
 REMOVE_SINGLE_QUOTES = False     # Remove apostrophes too?
-MAX_SIZE = 5_000_000              # Max file size in bytes
+MAX_SIZE = 10_000_000              # Max file size in bytes
 EXCLUDE_DIRS = {'.git', 'venv', '__pycache__', '.venv', 'env', 'node_modules'}
 CLEANED_TAG = '.cleaned'          # Tag to mark cleaned files
 
