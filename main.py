@@ -31,7 +31,7 @@ def select_cleaned_file() -> Path | None:
         return None
     print("Select a cleaned file:")
     for idx, f in enumerate(files, 1):
-        print(f"{idx}. {str(f).replace(".cleaned", "")}")
+        print(f"{idx}. {str(f.name).replace(".cleaned", "")}")
     while True:
         choice = input("Enter file number ('exit' to stop): ").strip()
         if choice.isdigit():
