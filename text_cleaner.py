@@ -59,6 +59,10 @@ def remove_quotes(text: str, remove_single: bool = False) -> str:
         text = re.sub(r"[\'‘’`]", '', text)
     return text
 
+def fix_commas(text: str) -> str:
+    text = re.sub(r',([a-zA-Z])', r', \1', text)
+    return text
+
 def normalize_whitespace(text: str) -> str:
     text = text.replace('\r\n', '\n').replace('\r', '\n')
     text = re.sub(r'\n+', ' ', text)
@@ -81,6 +85,7 @@ def clean_text(text: str) -> str:
     text = remove_bracket_contents(text)
     text = remove_reference_issues(text)
     text = remove_quotes(text, remove_single=REMOVE_SINGLE_QUOTES)
+    text = fix_commas(text)
     text = normalize_whitespace(text)
     return split_sentences(text, mode=MODE)
 
